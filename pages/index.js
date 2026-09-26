@@ -354,10 +354,10 @@ export default function Home() {
                       className={`company-logo ${company.logoClass || ""}`}
                     />
                   </div>
-                  <div className="company-caption">
+                  {/* <div className="company-caption">
                     <h3>{company.name}</h3>
                     <p>{company.descriptor}</p>
-                  </div>
+                  </div> */}
                   {company.website && (
                     <a
                       className="company-website"

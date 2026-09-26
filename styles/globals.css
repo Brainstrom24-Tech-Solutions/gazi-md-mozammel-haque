@@ -163,11 +163,20 @@ button {
   position: relative;
   padding-block: 12px;
 }
+.desktop-nav a,
+.mobile-nav a {
+  position: relative;
+  transition: color 600ms ease-in-out;
+}
 .desktop-nav a:hover,
-.desktop-nav a[aria-current] {
+.desktop-nav a:focus-visible,
+.desktop-nav a[aria-current],
+.mobile-nav a:hover,
+.mobile-nav a:focus-visible {
   color: var(--green);
 }
-.desktop-nav a[aria-current]:after {
+.desktop-nav a::after,
+.mobile-nav a::after {
   content: "";
   position: absolute;
   bottom: 4px;
@@ -175,6 +184,17 @@ button {
   right: 0;
   height: 1px;
   background: var(--gold);
+  pointer-events: none;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 300ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.desktop-nav a:hover::after,
+.desktop-nav a:focus-visible::after,
+.desktop-nav a[aria-current]::after,
+.mobile-nav a:hover::after,
+.mobile-nav a:focus-visible::after {
+  transform: scaleX(1);
 }
 .header-cta {
   font-size: 12px;

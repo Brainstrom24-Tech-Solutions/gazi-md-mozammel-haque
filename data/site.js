@@ -34,6 +34,11 @@ export const timeline = [
     text: "As Project Director of Anondo Housing Society, he brings experience in administration, land management, infrastructure and welfare initiatives to project leadership.",
   },
   {
+    label: "CHAIRMAN",
+    title: "Anondo Cityscapers Ltd.",
+    text: "He serves as Chairman of Anondo Cityscapers Ltd.",
+  },
+  {
     label: "SPORTS LEADERSHIP",
     title: "Bangladesh Kabaddi Federation",
     text: "He serves as Joint Secretary of the Bangladesh Kabaddi Federation, extending his leadership into the sporting community.",
