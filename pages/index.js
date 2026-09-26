@@ -338,11 +338,9 @@ export default function Home() {
                 >
                   <div className="company-card-top">
                     <span>
-                      {company.featured
-                        ? "PROJECT DIRECTOR"
-                        : "COMPANY PORTFOLIO"}
+                      {company.role?.toUpperCase() || (company.featured ? "PROJECT DIRECTOR" : "COMPANY PORTFOLIO")}
                     </span>
-                    <span>0{i + 1}</span>
+                    <span>{String(i + 1).padStart(2, "0")}</span>
                   </div>
                   <div className="company-logo-stage">
                     <Image
@@ -435,11 +433,11 @@ export default function Home() {
             </div>
             <div className="timeline">
               {timeline.map((item, i) => (
-                <article key={item.label} className="timeline-item">
+                <article key={item.title} className="timeline-item">
                   <span className="timeline-dot" />
                   <div className="timeline-label">
                     {item.label}
-                    <span>0{i + 1}</span>
+                    <span>{String(i + 1).padStart(2, "0")}</span>
                   </div>
                   <h3>{item.title}</h3>
                   <p>{item.text}</p>

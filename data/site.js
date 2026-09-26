@@ -39,6 +39,31 @@ export const timeline = [
     text: "He serves as Chairman of Anondo Cityscapers Ltd.",
   },
   {
+    label: "CHAIRMAN",
+    title: "Anondo Bhubon",
+    text: "He serves as Chairman of Anondo Bhubon.",
+  },
+  {
+    label: "CHAIRMAN",
+    title: "Anondo Rosemont Estate",
+    text: "He serves as Chairman of Anondo Rosemont Estate.",
+  },
+  {
+    label: "CHAIRMAN",
+    title: "Anondo Baari",
+    text: "He serves as Chairman of Anondo Baari.",
+  },
+  {
+    label: "CHAIRMAN",
+    title: "Anondo Universal Services Ltd.",
+    text: "He serves as Chairman of Anondo Universal Services Ltd.",
+  },
+  {
+    label: "CHAIRMAN",
+    title: "Pranto ARDI",
+    text: "He serves as Chairman of Pranto ARDI.",
+  },
+  {
     label: "SPORTS LEADERSHIP",
     title: "Bangladesh Kabaddi Federation",
     text: "He serves as Joint Secretary of the Bangladesh Kabaddi Federation, extending his leadership into the sporting community.",
@@ -57,6 +82,7 @@ export const companies = [
   },
   {
     name: "Anondo Bhubon",
+    role: "Chairman",
     website: "https://www.anondobhubon.com/",
     descriptor: "A Project of Anondo Cityscapers",
     image: "bubon-final-logo.png",
@@ -64,6 +90,7 @@ export const companies = [
   },
   {
     name: "Anondo Rosemont Estate",
+    role: "Chairman",
     website: "https://www.anondorosemontestate.com/",
     descriptor: "Real Estate",
     image: "rosemont-logo-1.png",
@@ -71,12 +98,14 @@ export const companies = [
   },
   {
     name: "Anondo Universal Services Limited",
+    role: "Chairman",
     website: "https://www.anondouniversalserviceslimited.com/",
     descriptor: "Services",
     image: "security.jpg",
   },
   {
     name: "Anondo Baari",
+    role: "Chairman",
     website: "https://www.anondobari.com/",
     descriptor: "Senior Citizen Wellness Center",
     image: "baari.png",
@@ -89,13 +118,15 @@ export const companies = [
     website: "https://www.bridgepharmabd.com/",
   },
   {
-    name: "Anondo Cityscapers",
+    name: "Anondo Cityscapers Ltd.",
+    role: "Chairman",
     website: "https://www.anondocityscapers.com/",
     descriptor: "Company Portfolio",
     image: "cityscapers.png",
   },
   {
-    name: "Pranto Ardi",
+    name: "Pranto ARDI",
+    role: "Chairman",
     website: "https://www.prantoardi.com/",
     descriptor: "Pranto Agro Research & Development Initiatives",
     image: "pranto.png",
